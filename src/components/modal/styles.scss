@@ -1,0 +1,41 @@
+@import 'src/colors';
+
+.Modal {
+  width: 30vw;
+  height: 25vh;
+  background: $white;
+  border-radius: 10px;
+  border: 1px solid $base-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__Title {
+    border-bottom: 1px solid $base-color;
+    padding: 5px;
+  }
+
+  &__Content {
+    margin: 5px;
+  }
+
+  &__Footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid $base-color;
+    background: $light-gray;
+    padding: 8px 16px;
+  }
+}
+
+.Content__Input {
+  width: 100%;
+}
+
+.Footer__Button {
+  border: 0;
+  background: $green;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 12px;
+}
