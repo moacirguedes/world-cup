@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.scss';
+import Radio from '../radio';
 
 const Modal = ({ show }) => {
 
@@ -12,42 +13,34 @@ const Modal = ({ show }) => {
           <label for="teamName">Team Name</label><br></br>
           <input className="Content__Input" id="teamName" />
 
-          <div className="Content_Radios">
-            <input
-              className="Content__Radio"
-              type="radio"
+          <div>
+            <Radio
               id="groupA"
               name="group"
               value="a"
+              text="Group A"
             />
-            <label for="groupA">Group A</label>
 
-            <input
-              className="Content__Radio"
-              type="radio"
+            <Radio
               id="groupB"
               name="group"
               value="b"
+              text="Group B"
             />
-            <label for="groupB">Group B</label>
 
-            <input
-              className="Content__Radio"
-              type="radio"
+            <Radio
               id="groupC"
               name="group"
               value="c"
+              text="Group C"
             />
-            <label for="groupC">Group C</label>
 
-            <input
-              className="Content__Radio"
-              type="radio"
+            <Radio
               id="groupD"
               name="group"
               value="d"
+              text="Group D"
             />
-            <label for="groupD">Group D</label>
           </div>
         </div>
 
