@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 
-const Match = ({ teamOne, teamTwo }) =>
+const Match = ({ teamOne, teamTwo, disabled }) =>
 
   <div className="MatchWrapper">
     <div className="Match">
@@ -16,6 +16,7 @@ const Match = ({ teamOne, teamTwo }) =>
         id={teamOne}
         type="number"
         min={0}
+        disabled={disabled}
       />
     </div>
 
@@ -31,6 +32,7 @@ const Match = ({ teamOne, teamTwo }) =>
         id={teamTwo}
         type="number"
         min={0}
+        disabled={disabled}
       />
     </div>
   </div>

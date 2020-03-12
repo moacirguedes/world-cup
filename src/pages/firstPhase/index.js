@@ -4,7 +4,7 @@ import GroupFirstPhase from '../../components/groupFirstPhase';
 
 const FirstPhase = () =>
 
-  <div className="FirstPhaseWrapper">
+  <div className="PhaseWrapper">
     <GroupFirstPhase group="A" />
     <GroupFirstPhase group="B" />
     <GroupFirstPhase group="C" />
