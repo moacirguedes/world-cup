@@ -1,0 +1,11 @@
+@import 'src/colors';
+
+.Tabs {
+  &__List {
+    margin-top: 10px;
+    border-bottom: 1px solid $base-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}

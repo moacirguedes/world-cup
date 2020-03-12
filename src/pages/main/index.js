@@ -1,22 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.scss';
-import Modal from '../../components/modal';
+import Tabs from '../../components/tabs';
 
 const Main = () => {
-  const [showModal, setShowModal] = useState(false);
-
   return (
-    <>
-      <button
-        onClick={() => {
-          setShowModal(!showModal);
-        }}
-      >
-        Modal
-      </button>
-
-      <Modal show={showModal} />
-    </>
+    <Tabs>
+      <div label="First">
+        First tab content
+      </div>
+      <div label="Second">
+        Second tab content
+      </div>
+      <div label="Last">
+        Last tab content
+      </div>
+    </Tabs>
   );
 }
 
