@@ -4,6 +4,7 @@ import Tabs from '../../components/tabs';
 import Setup from '../setup';
 import FirstPhase from '../firstPhase';
 import SecondPhase from '../secondPhase';
+import SemiFinals from '../semiFinals';
 
 const Main = () => {
   return (
@@ -18,7 +19,7 @@ const Main = () => {
         <SecondPhase />
       </div>
       <div label="Semi Finals">
-        Semi finals content
+        <SemiFinals />
       </div>
       <div label="Finals">
         Finals content
