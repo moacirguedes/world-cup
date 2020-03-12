@@ -5,14 +5,20 @@ import Tabs from '../../components/tabs';
 const Main = () => {
   return (
     <Tabs>
-      <div label="First">
+      <div label="Setup">
         First tab content
       </div>
-      <div label="Second">
-        Second tab content
+      <div label="First Phase">
+        first phase tab content
       </div>
-      <div label="Last" disabled>
-        Last tab content
+      <div label="Second Phase">
+        Second phase tab content
+      </div>
+      <div label="Semi Finals">
+        Semi finals content
+      </div>
+      <div label="Finals">
+        Finals content
       </div>
     </Tabs>
   );
