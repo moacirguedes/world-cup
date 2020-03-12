@@ -1,0 +1,27 @@
+@import "src/colors";
+
+.MatchWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-bottom: 1px solid $black;
+
+  &:last-child {
+    border: 0;
+  }
+}
+
+.Match {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+
+  &__Label {
+    width: 60%;
+  }
+
+  &__Input {
+    width: 25%;
+  }
+}

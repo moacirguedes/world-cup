@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.scss';
 import Tabs from '../../components/tabs';
 import Setup from '../setup';
+import FirstPhase from '../firstPhase';
 
 const Main = () => {
   return (
@@ -10,7 +11,7 @@ const Main = () => {
         <Setup />
       </div>
       <div label="First Phase">
-        first phase tab content
+        <FirstPhase />
       </div>
       <div label="Second Phase">
         Second phase tab content
@@ -20,6 +21,9 @@ const Main = () => {
       </div>
       <div label="Finals">
         Finals content
+      </div>
+      <div label="Results">
+        Results
       </div>
     </Tabs>
   );
