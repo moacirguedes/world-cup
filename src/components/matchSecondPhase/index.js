@@ -8,11 +8,13 @@ const MatchSecondPhase = ({ group, disabled }) =>
     <Match
       teamOne="First team"
       teamTwo="Second team"
+      disabled={disabled}
     />
 
     <Match
       teamOne="Second team"
       teamTwo="Third team"
+      disabled={disabled}
     />
   </div>
 
