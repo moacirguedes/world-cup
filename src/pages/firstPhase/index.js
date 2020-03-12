@@ -4,7 +4,7 @@ import MatchFirstPhase from '../../components/matchFirstPhase';
 
 const FirstPhase = () =>
 
-  <div className="PhaseWrapper">
+  <div className="FirstPhaseWrapper">
     <MatchFirstPhase group="A" />
     <MatchFirstPhase group="B" />
     <MatchFirstPhase group="C" />
