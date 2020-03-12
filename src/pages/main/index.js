@@ -1,12 +1,13 @@
 import React from 'react';
 import './styles.scss';
 import Tabs from '../../components/tabs';
+import Setup from '../setup';
 
 const Main = () => {
   return (
     <Tabs>
       <div label="Setup">
-        First tab content
+        <Setup />
       </div>
       <div label="First Phase">
         first phase tab content
