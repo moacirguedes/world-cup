@@ -1,4 +1,4 @@
-@import 'src/colors.scss';
+@import "src/colors.scss";
 
 .Tab {
   display: inline-block;
@@ -6,9 +6,13 @@
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
 
-  &__Active{
+  &__Active {
     background-color: $white;
     border: solid $base-color;
     border-width: 1px 1px 0 1px;
+  }
+
+  &__Disabled {
+    color: $button-color;
   }
 }

@@ -12,18 +12,20 @@ const Tabs = ({ children }) => {
     <div>
       <ol className="Tabs__List">
         {children.map((child) => {
-          const { label } = child.props;
+          const { label, disabled } = child.props;
 
           return (
             <Tab
               activeTab={activeTab}
               key={label}
               label={label}
-              onClick={() => setActiveTab(child.props.label)}
+              onClick={() => setActiveTab(label)}
+              disabled={disabled}
             />
           );
         })}
       </ol>
+
       <div>
         {children.map((child) => {
           if (child.props.label !== activeTab) return undefined;

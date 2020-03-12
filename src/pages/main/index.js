@@ -11,7 +11,7 @@ const Main = () => {
       <div label="Second">
         Second tab content
       </div>
-      <div label="Last">
+      <div label="Last" disabled>
         Last tab content
       </div>
     </Tabs>
