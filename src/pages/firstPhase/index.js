@@ -1,14 +1,14 @@
 import React from 'react';
 import './styles.scss';
-import GroupFirstPhase from '../../components/groupFirstPhase';
+import MatchFirstPhase from '../../components/matchFirstPhase';
 
 const FirstPhase = () =>
 
   <div className="FirstPhaseWrapper">
-    <GroupFirstPhase group="A" />
-    <GroupFirstPhase group="B" />
-    <GroupFirstPhase group="C" />
-    <GroupFirstPhase group="D" />
+    <MatchFirstPhase group="A" />
+    <MatchFirstPhase group="B" />
+    <MatchFirstPhase group="C" />
+    <MatchFirstPhase group="D" />
   </div>
 
 export default FirstPhase;

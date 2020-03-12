@@ -3,6 +3,7 @@ import './styles.scss';
 import Tabs from '../../components/tabs';
 import Setup from '../setup';
 import FirstPhase from '../firstPhase';
+import SecondPhase from '../secondPhase';
 
 const Main = () => {
   return (
@@ -14,7 +15,7 @@ const Main = () => {
         <FirstPhase />
       </div>
       <div label="Second Phase">
-        Second phase tab content
+        <SecondPhase />
       </div>
       <div label="Semi Finals">
         Semi finals content
