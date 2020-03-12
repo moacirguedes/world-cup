@@ -2,9 +2,9 @@ import React from 'react';
 import './styles.scss';
 import Match from '../../components/match';
 
-const GroupFirstPhase = ({ group, disabled }) =>
+const MatchFirstPhase = ({ group, disabled }) =>
 
-  <div className="GroupFirstPhaseWrapper">
+  <div className="MatchFirstPhaseWrapper">
     <h4>Group {group}</h4>
 
     <Match
@@ -28,4 +28,4 @@ const GroupFirstPhase = ({ group, disabled }) =>
     />
   </div>
 
-export default GroupFirstPhase;
+export default MatchFirstPhase;
