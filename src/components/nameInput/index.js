@@ -1,16 +1,16 @@
 import React from 'react';
 import './styles.scss';
 
-const NameInput = ({ name, value, number }) =>
+const NameInput = ({ id, teamNumber, groupIndex, value, setTeam }) =>
 
   <div className="NameInputWrapper">
-    <label htmlFor={name}>Team {number} name:</label>
+    <label htmlFor={id}>Team {teamNumber} name:</label>
     <input
       className="Name__Input"
-      id={name}
+      id={id}
       type="text"
-      name={name}
       value={value}
+      onChange={(e) => setTeam(groupIndex, teamNumber, e.target.value)}
     />
   </div>
   
