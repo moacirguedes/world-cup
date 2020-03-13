@@ -1,0 +1,15 @@
+.Finals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__Matches {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__Button {
+    display: flex;
+    flex-direction: row;
+  }
+}

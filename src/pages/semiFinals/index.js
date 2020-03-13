@@ -23,6 +23,7 @@ const SemiFinals = () =>
     <div className="SemiFinalsWrapper">
       <MatchSecondPhase />
       <MatchSecondPhase />
+      <button className="Button SemiFinals__Button">Next phase</button>
     </div>
   </>
 

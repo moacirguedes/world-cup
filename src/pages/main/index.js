@@ -6,6 +6,7 @@ import FirstPhase from '../firstPhase';
 import SecondPhase from '../secondPhase';
 import SemiFinals from '../semiFinals';
 import Finals from '../finals';
+import Results from '../results';
 
 const Main = () => {
   return (
@@ -26,7 +27,7 @@ const Main = () => {
         <Finals />
       </div>
       <div label="Results">
-        Results
+        <Results />
       </div>
     </Tabs>
   );

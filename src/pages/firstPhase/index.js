@@ -9,6 +9,7 @@ const FirstPhase = () =>
     <MatchFirstPhase group="B" />
     <MatchFirstPhase group="C" />
     <MatchFirstPhase group="D" />
+    <button className="Button FirstPhase__Button">Next phase</button>
   </div>
 
 export default FirstPhase;
