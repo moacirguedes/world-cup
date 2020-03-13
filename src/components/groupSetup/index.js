@@ -4,7 +4,7 @@ import NameInput from '../../components/nameInput';
 
 const GroupSetup = ({ group }) =>
 
-  <div className="GroupSetupWrapper">
+  <div className="PhaseWrapper GroupSetup">
     <h4>Group {group}</h4>
     <NameInput />
     <NameInput />

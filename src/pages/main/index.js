@@ -5,6 +5,7 @@ import Setup from '../setup';
 import FirstPhase from '../firstPhase';
 import SecondPhase from '../secondPhase';
 import SemiFinals from '../semiFinals';
+import Finals from '../finals';
 
 const Main = () => {
   return (
@@ -22,7 +23,7 @@ const Main = () => {
         <SemiFinals />
       </div>
       <div label="Finals">
-        Finals content
+        <Finals />
       </div>
       <div label="Results">
         Results
