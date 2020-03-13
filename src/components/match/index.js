@@ -30,7 +30,7 @@ const Match = ({ teamOne, teamTwo, disabled }) =>
       />
       <label
         htmlFor={teamTwo}
-        className="Match__Label"
+        className="Match__Label right"
       >
         {teamTwo}
       </label>
