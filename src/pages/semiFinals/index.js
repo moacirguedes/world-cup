@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.scss';
 import MatchFirstPhase from '../../components/matchFirstPhase';
 import MatchSecondPhase from '../../components/matchSecondPhase';
-import MatchSemiFinals from '../../components/matchSemiFinals';
 
 const SemiFinals = () =>
 
@@ -22,8 +21,8 @@ const SemiFinals = () =>
     </div>
 
     <div className="SemiFinalsWrapper">
-      <MatchSemiFinals />
-      <MatchSemiFinals />
+      <MatchSecondPhase />
+      <MatchSecondPhase />
     </div>
   </>
 

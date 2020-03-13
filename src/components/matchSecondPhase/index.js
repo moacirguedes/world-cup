@@ -4,16 +4,10 @@ import Match from '../../components/match';
 
 const MatchSecondPhase = ({ group, disabled }) =>
 
-  <div className="MatchSecondPhaseWrapper">
+  <div className="PhaseWrapper SecondPhase">
     <Match
       teamOne="First team"
       teamTwo="Second team"
-      disabled={disabled}
-    />
-
-    <Match
-      teamOne="Second team"
-      teamTwo="Third team"
       disabled={disabled}
     />
   </div>

@@ -19,14 +19,8 @@ const Match = ({ teamOne, teamTwo, disabled }) =>
         disabled={disabled}
       />
     </div>
-
+    <span>X</span>
     <div className="Match">
-      <label
-        htmlFor={teamTwo}
-        className="Match__Label"
-      >
-        {teamTwo}
-      </label>
       <input
         className="Match__Input"
         id={teamTwo}
@@ -34,6 +28,12 @@ const Match = ({ teamOne, teamTwo, disabled }) =>
         min={0}
         disabled={disabled}
       />
+      <label
+        htmlFor={teamTwo}
+        className="Match__Label"
+      >
+        {teamTwo}
+      </label>
     </div>
   </div>
 
