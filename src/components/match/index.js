@@ -19,7 +19,7 @@ const Match = ({ teamOne, teamTwo, disabled }) =>
         disabled={disabled}
       />
     </div>
-    <span>X</span>
+    <span>x</span>
     <div className="Match">
       <input
         className="Match__Input"

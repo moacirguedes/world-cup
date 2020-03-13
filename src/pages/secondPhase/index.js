@@ -18,6 +18,7 @@ const SecondPhase = () =>
       <MatchSecondPhase />
       <MatchSecondPhase />
       <MatchSecondPhase />
+      <button className="Button SecondPhase__Button">Next phase</button>
     </div>
   </>
 
